@@ -1,0 +1,3 @@
+- creer un venv
+- installer tinyDb : pip install tinydb
+- lancer le projet : python main.py
