@@ -1,0 +1,38 @@
+{
+    "utilisateur": {
+        "1": {
+            "nom": "John",
+            "email": "admin@gmail.com",
+            "mot_de_passe": "123456",
+            "role": "admin"
+        },
+        "2": {
+            "nom": "Lena",
+            "email": "etudiant@gmail.com",
+            "mot_de_passe": "123456",
+            "role": "etudiant",
+            "solde": 0
+        },
+        "3": {
+            "nom": "Prof",
+            "email": "prof@gmail.com",
+            "mot_de_passe": "123456",
+            "role": "professeur"
+        },
+        "4": {
+            "nom": "aly niang",
+            "email": "aly@gmail.com",
+            "mot_de_passe": "123",
+            "role": "professeur"
+        }
+    },
+    "cours": {
+        "1": {
+            "titre": "Python",
+            "description": "Apprendre python",
+            "prix": 1000,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": []
+        }
+    }
+}
