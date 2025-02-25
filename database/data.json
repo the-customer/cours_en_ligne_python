@@ -11,7 +11,7 @@
             "email": "etudiant@gmail.com",
             "mot_de_passe": "123456",
             "role": "etudiant",
-            "solde": 0
+            "solde": 3400
         },
         "3": {
             "nom": "Prof",
@@ -30,9 +30,108 @@
         "1": {
             "titre": "Python",
             "description": "Apprendre python",
-            "prix": 1000,
+            "prix": 1500,
             "prof_email": "prof@gmail.com",
             "etudiants_inscrits": []
+        },
+        "2": {
+            "titre": "Java version Pro",
+            "description": "Apprendre Java",
+            "prix": 5000,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": []
+        },
+        "3": {
+            "titre": "C++",
+            "description": "Apprendre C++",
+            "prix": 500,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": []
+        },
+        "4": {
+            "titre": "C# pour les debutants",
+            "description": "Apprendre C#",
+            "prix": 200,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": []
+        },
+        "5": {
+            "titre": "PHP Pour Nuls",
+            "description": "Apprendre PHP",
+            "prix": 100,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": [
+                "etudiant@gmail.com"
+            ]
+        },
+        "6": {
+            "titre": "JavaScript",
+            "description": "Apprendre JavaScript",
+            "prix": 5500,
+            "prof_email": "prof@gmail.com",
+            "etudiants_inscrits": []
+        }
+    },
+    "paiements": {
+        "1": {
+            "email_etudiant": "etudiant@gmail.com",
+            "montant": 1000
+        },
+        "2": {
+            "email_etudiant": "etudiant@gmail.com",
+            "montant": 1000
+        },
+        "3": {
+            "email_etudiant": "etudiant@gmail.com",
+            "montant": 1000
+        },
+        "4": {
+            "email_etudiant": "etudiant@gmail.com",
+            "montant": 1000
+        },
+        "5": {
+            "email_etudiant": "etudiant@gmail.com",
+            "montant": 1500
+        }
+    },
+    "quiz": {
+        "1": {
+            "titre_cours": "Python",
+            "questions": [
+                {
+                    "question": "Il existe combien de methode pour initialiser une variable?",
+                    "options": {
+                        "A": "1",
+                        "B": "2",
+                        "C": "3"
+                    },
+                    "reponse": "C"
+                },
+                {
+                    "question": "Comment on importe une fonction d'un module?",
+                    "options": {
+                        "A": "import fonction from module",
+                        "B": "from module import fonction",
+                        "C": "module import fonction"
+                    },
+                    "reponse": "B"
+                },
+                {
+                    "question": "Que fait l'instruction suivante : L[::-1]",
+                    "options": {
+                        "A": "Recopie la liste L",
+                        "B": "Decale la liste L vers la droite",
+                        "C": "Inverser la copie de la lisre L"
+                    },
+                    "reponse": "C"
+                }
+            ]
+        }
+    },
+    "certifications": {
+        "1": {
+            "email_etudiant": "etudiant@gmail.com",
+            "titre_cours": "Python"
         }
     }
 }

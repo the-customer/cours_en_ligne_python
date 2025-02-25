@@ -2,6 +2,7 @@ from models.utilisateur import Utilisateur
 from models.etudiant import Etudiant
 from models.professeur import Professeur
 from models.admin import Admin
+from views.menu_etudiant import MenuEtudiant
 
 
 class UtilisateurController:
@@ -33,7 +34,10 @@ class UtilisateurController:
 
         if utilisateur and utilisateur['mot_de_passe'] == mot_de_passe:
             print(f"Bienvenue {utilisateur['nom']} !")
+            if utilisateur['role'] == "etudiant":
+                MenuEtudiant.afficher_menu(email)
             return utilisateur
         else:
             print("Email ou mot de passe invalide")
             return None
+    
